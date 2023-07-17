@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Semantic_UI_CSS_master/semantic.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary_color: #EB3F41;
+        }
+
+        .verticurl_logo {
+            width: 100% !important;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="ui menu">
+        <a class="item">
+            <img class="verticurl_logo" src="images/slow_loading_verticurl_127X34.svg" alt="Verticurl">
+            <!-- https://loading.io/animation/text/ -->
+        </a>
+        <a class="item">
+            Contact List
+        </a>
+        <div class="ui pointing dropdown link item">
+            <span class="text">Emails</span>
+            <i class="dropdown icon"></i>
+            <div class="menu">
+                <div class="header">Categories</div>
+                <div class="item">
+                    <i class="dropdown icon"></i>
+                    <span class="text">Clothing</span>
+                    <div class="menu">
+                        <div class="header">Mens</div>
+                        <div class="item">Shirts</div>
+                        <div class="item">Pants</div>
+                        <div class="item">Jeans</div>
+                        <div class="item">Shoes</div>
+                        <div class="divider"></div>
+                        <div class="header">Womens</div>
+                        <div class="item">Dresses</div>
+                        <div class="item">Shoes</div>
+                        <div class="item">Bags</div>
+                    </div>
+                </div>
+                <div class="item">Home Goods</div>
+                <div class="item">Bedroom</div>
+                <div class="divider"></div>
+                <div class="header">Order</div>
+                <div class="item">Status</div>
+                <div class="item">Cancellations</div>
+            </div>
+        </div>
+        <a class="item">
+            Landing Page
+        </a>
+        <div class="ui pointing dropdown link item">
+            <span class="text">Webinar</span>
+            <i class="dropdown icon"></i>
+            <div class="menu">
+                <div class="header">Categories</div>
+                <div class="item">Home Goods</div>
+                <div class="item">Bedroom</div>
+                <div class="divider"></div>
+                <div class="header">Order</div>
+                <div class="item">Status</div>
+                <div class="item">Cancellations</div>
+            </div>
+        </div>
+    </div>
+    <a href="#">
+        <div>
+            <i class="fa-regular fa-address-book" style="font-size: 6rem;"></i>
+            <p>Contact List</p>
+        </div>
+    </a>
+    <a href="#">
+        <div>
+            <i class="fa-regular fa-envelope" style="font-size: 6rem;"></i>
+            <p>Email</p>
+        </div>
+    </a>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="Semantic_UI_CSS_master/semantic.min.js"></script>
+    <script>
+        $('.ui.dropdown').dropdown({ on: 'hover' });
+    </script>
+</body>
+
+</html>
